@@ -19,6 +19,9 @@
     .contact-infor {
         line-height: 2;
     }
+    #slider .text-content {
+        bottom: 70%;
+    }
 }
 
 
@@ -76,5 +79,8 @@
     }
     .contact-infor {
         line-height: 2;
+    }
+    #slider .text-content {
+        display: none;
     }
 }
