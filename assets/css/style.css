@@ -149,20 +149,32 @@ html {
     display: block;
 }
 
-#header .search-btn {
-    float: right;
+#header .mobile-search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
+#header .mobile-search-btn,
+#header .search-btn {
+    float: right;
+    padding: 0 21px;
+}
+
+#header .mobile-search,
 #header .nav-search {
     color: #fff;
     line-height: 46px;
     font-size: 18px;
-    padding: 0 21px;
 }
 
 #header .search-btn:hover {
     background-color: var(--main-color);
     cursor: pointer;
+}
+
+#header .mobile-search-btn {
+    display: none;
 }
 
 #slider {
@@ -195,9 +207,12 @@ html {
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 0 112px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading {
@@ -239,7 +254,7 @@ html {
 }
 
 #content .members-list {
-    margin-top: 50px;
+    margin-top: 34px;
     overflow: hidden;
 }
 
@@ -284,7 +299,7 @@ html {
 }
 
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-item {

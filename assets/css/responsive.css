@@ -1,0 +1,80 @@
+/* BREAK POINT */
+
+
+/* PC */
+
+@media (min-width: 1024px) {}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+    #footer .copyright a {
+        display: inline-block;
+        padding: 10px 0px;
+    }
+    .contact-infor {
+        line-height: 2;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 740px) {
+    #header .mobile-search-btn {
+        display: block;
+    }
+    #header .mobile-search-btn:hover {
+        background-color: var(--main-color);
+    }
+    #nav {
+        display: block;
+    }
+    #nav li .subnav {
+        position: initial;
+        background-color: #000;
+    }
+    #nav li .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav li a {
+        padding: 2px 24px;
+    }
+    #nav>li:first-child {
+        display: inline-block
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #content .m-item {
+        margin-top: 30px;
+        width: 100%
+    }
+    #content .member-img {
+        width: 50%;
+    }
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    .contact-form {
+        margin-top: 32px !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    .contact-infor {
+        line-height: 2;
+    }
+}
